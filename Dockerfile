@@ -1,6 +1,6 @@
 FROM lsioarmhf/serviio-aarch64:109
 
-ARG SERVIIO_VER="1.10.1"
+ARG SERVIIO_VER="2.0"
 
 RUN rm -rf /app/serviio && \
   mkdir -p /app/serviio && \
